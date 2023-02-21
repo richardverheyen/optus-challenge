@@ -17,3 +17,22 @@ I'm going to take this as an opportunity to use Vite templates to quickly pull t
 - Run the "deploy" script in vercel when changes are detected in the master branch
 
 Decision made to not copy the '#progress1' naming on the option input. I'd like to show off some unidirectional data flow in this example, if I used the useRef hook and made the Bar components uncontrolled, it would be an uglier solution. So instead I'm going to control the state of the inputs with an array of their values eg: [25, 50, 75]. This way I can demonstrate better scoped components, scope some tests on the Bar component, and make the buttons in the App component a little cleaner.
+
+Built out the rest of the layout using TDD.
+
+Added SCSS and some media queries.
+
+Steps to host locally, in a linux terminal with the git cli installed globally:
+1. git clone https://github.com/richardverheyen/optus-challenge.git
+2. cd optus-challenge
+3. nvm install (or manually install node v18.12.1)
+4. npm install
+
+5. npm run build
+6. npm run preview
+
+or
+
+5. npm run dev
+
+Happy coding
