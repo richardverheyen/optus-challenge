@@ -13,3 +13,5 @@ I'm going to take this as an opportunity to use Vite templates to quickly pull t
 - Lock down the node version with a .nvmrc file
 - Deploy to vercel https://optus-challenge.vercel.app/
 - Then make Vitest run a basic test
+- Add a new "deploy" script which first runs our tests and only if successful, builds and deploys our code to the server.
+- Run the "deploy" script in vercel when changes are detected in the master branch
