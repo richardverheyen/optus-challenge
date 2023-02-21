@@ -46,7 +46,7 @@ describe("Bar", () => {
 
   it("Background color is red when 101 is passed in", () => {
     render(<Bar value={101}/>)
-    expect(screen.getByRole('progressbar')).toHaveStyle("background-color: red");
+    expect(screen.getByRole('progressbar')).toHaveStyle("background-color: #f44336");
   });
 
 })

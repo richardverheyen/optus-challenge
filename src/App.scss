@@ -1,0 +1,28 @@
+.App {
+  padding: 40px;
+  @media (max-width: 500px) {
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    text-align: left;
+    @media (max-width: 400px) {
+      font-size: 24px;
+    }
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+      margin: 0 10px 10px 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
