@@ -5,13 +5,9 @@ import App from './App';
 
 describe("App", () => {
   it("Renders hello world", () => {
-    // Arrange
-    render(<App />)
-    // Act
-
-    // Expect
+    render(<App />);
     expect(screen.getByRole('heading', {
       level: 1
-    })).toHaveTextContent('Vite + React');
+    })).toHaveTextContent('Progress Bars Demo');
   })
 })

@@ -4,7 +4,7 @@ import Bar from './Bar'
 
 function App() {
   const [activeBar, setActiveBar] = useState(0);
-  const [state, setState] = useState([25, 50, 75]);
+  const [state, setState] = useState([125, 50, 75]);
 
   return (
     <div className="App">
