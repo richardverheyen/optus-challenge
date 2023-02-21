@@ -22,17 +22,20 @@ Built out the rest of the layout using TDD.
 
 Added SCSS and some media queries.
 
-Steps to host locally, in a linux terminal with the git cli installed globally:
-1. git clone https://github.com/richardverheyen/optus-challenge.git
-2. cd optus-challenge
-3. nvm install (or manually install node v18.12.1)
-4. npm install
+## Live demo can be found at:
+https://optus-challenge.vercel.app/
 
-5. npm run build
-6. npm run preview
+## Steps to host locally, in a linux terminal with the git cli installed globally:
+1. `git clone https://github.com/richardverheyen/optus-challenge.git`
+2. `cd optus-challenge`
+3. `nvm install (or manually install node v18.12.1)`
+4. `npm install`
+
+5. `npm run build`
+6. `npm run preview`
 
 or
 
-5. npm run dev
+5. `npm run dev`
 
 Happy coding
