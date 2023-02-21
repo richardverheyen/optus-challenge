@@ -38,7 +38,7 @@ or
 
 5. `npm run dev`
 
-Happy coding
+Happy coding!
 
 ### Task description:
 
@@ -46,25 +46,25 @@ Happy coding
 https://static.optus.com.au/pei/progress-bars-demo.ogv
 
 #### Requirements:
- solution should implemented by using React Framework, TypeScript is preferred
- Behaviors match the video
- Multiple bars
- One set of controls that can control each bar on the fly
- Can't go under 0
- Can go over 100, but limit the bar itself and change its color
- Display usage amount, centered
- Write tests for your code (hint: TDD strongly preferred)
- Implement a responsive solution: testing it on the mobile, tablet, etc. Getting it working nicely.
- Animate the bar change, and make sure it works well when you tap buttons quickly.
- Publish your code online somewhere: github or something like plnkr.co, jsfiddle.net
+- solution should implemented by using React Framework, TypeScript is preferred
+- Behaviors match the video
+- Multiple bars
+- One set of controls that can control each bar on the fly
+- Can't go under 0
+- Can go over 100, but limit the bar itself and change its color
+- Display usage amount, centered
+- Write tests for your code (hint: TDD strongly preferred)
+- Implement a responsive solution: testing it on the mobile, tablet, etc. Getting it working nicely.
+- Animate the bar change, and make sure it works well when you tap buttons quickly.
+- Publish your code online somewhere: github or something like plnkr.co, jsfiddle.net
 
 #### Bonus points for implementing production quality code, using practices such as:
- Setting it up as a project
- Setting up some automated tools
- Load progress bar
- Version control (git)
- Linting, code quality, etc
- JavaScript/CSS minification, packaging, etc
- Using a CSS preprocessor like SASS/SCSS or Using a CSS as component like styled-components
- Styling it to a production quality level
- SSR solution
+- Setting it up as a project
+- Setting up some automated tools
+- Load progress bar
+- Version control (git)
+- Linting, code quality, etc
+- JavaScript/CSS minification, packaging, etc
+- Using a CSS preprocessor like SASS/SCSS or Using a CSS as component like styled-components
+- Styling it to a production quality level
+- SSR solution
