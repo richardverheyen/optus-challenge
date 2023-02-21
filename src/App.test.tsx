@@ -48,6 +48,6 @@ describe("App", () => {
     fireEvent.click(plus25Button);
     fireEvent.click(plus25Button);
     fireEvent.click(plus25Button);
-    expect(screen.getAllByRole('progressbar')[0]).toHaveStyle("background-color: red");
+    expect(screen.getAllByRole('progressbar')[0]).toHaveStyle("background-color: #f44336");
   });
 })
