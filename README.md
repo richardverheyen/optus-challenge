@@ -1,7 +1,7 @@
 # Optus Coding Challenge
 
 Make a Progress bar app using React, Typescript good practices.
-I'm going to take this as an opportunity to use Vite templates to quickly pull together some SSR, and figure out how to use vitest instead of jest to write my tests.
+I'm going to take this as an opportunity to use Vite templates to quickly figure out how to use vitest instead of jest to write my tests.
 
 ## Steps taken:
 
@@ -21,6 +21,8 @@ Decision made to not copy the '#progress1' naming on the option input. I'd like 
 Built out the rest of the layout using TDD.
 
 Added SCSS and some media queries.
+
+Unable to make react-ssr work in vercel yet. May take some more time to understand how to make the server.js node file run in the vercel serverless functions environment. Might be an interesting talking point.
 
 ## Live demo can be found at:
 https://optus-challenge.vercel.app/
